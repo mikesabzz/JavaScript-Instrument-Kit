@@ -1,1 +1,1 @@
-# instrument-kit
+# JavaScript-Instrument-Kit
