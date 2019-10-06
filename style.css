@@ -1,6 +1,6 @@
 html {
     font-size: 10px;
-    /* background: url(http://i.imgur.com/b9r5sEL.jpg) bottom center; */
+    background: url(https://live.staticflickr.com/3780/10266815856_95c85efa7c_b.jpg) bottom center;
     background-size: cover;
   }
   
@@ -24,11 +24,11 @@ html {
     margin: 1rem;
     font-size: 1.5rem;
     padding: 1rem .5rem;
-    transition: all 0.06s;
+    transition: all 0.07s ease;
     width: 30vh;
     text-align: center;
-    color: white;
-    background: rgba(0,0,0,0.4);
+    color: black;
+    background: rgba(255, 255, 255, 0.8);
     text-shadow: 0 0 .5rem black;
   }
   
@@ -49,3 +49,26 @@ html {
     letter-spacing: .1rem;
     color: #ffc600;
   }
+
+  .footer {
+    color: white;
+  }
+
+  .piano-keys{
+    display: flex;
+    flex: 1;
+    align-items: center;
+  } 
+
+  .piano-keys .key{
+    border: .4rem solid black;
+    font-size: 1.5rem;
+    transition: all 0.07s ease;
+    color: black;
+    background: rgba(255, 255, 255, 0.8);
+  }
+  h1{
+    color: white;
+    font-size: 8vh;
+  }
+  
