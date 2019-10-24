@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <title>JavaScript Drum Kit</title>
 </head>
+<header>
+    <h2 class="piano"><a href="piano.html">Piano</a></h2>   
+</header>
 <body>
     <div class="keys">
-    <h1>Drum:</h1>
         <div data-key="65" class="key" onclick="clickSound(65)">
             <kbd>A</kbd>
             <span class="sound">clap</span>
@@ -54,49 +56,6 @@
     <audio data-key="74" src="sounds/snare.wav"></audio>
     <audio data-key="75" src="sounds/tom.wav"></audio>
     <audio data-key="76" src="sounds/tink.wav"></audio>
-
-    
-
-    <div class="piano-keys">
-        <h1>Piano:</h1>
-            <div data-key="81" class="key" onclick="clickSound(81)">
-                <kbd>Q</kbd>
-            </div>
-            <div data-key="87" class="key" onclick="clickSound(87)">
-                <kbd>W</kbd>
-            </div>
-            <div data-key="69" class="key" onclick="clickSound(69)">
-                <kbd>E</kbd>
-            </div>
-            <div data-key="82" class="key" onclick="clickSound(82)">
-                <kbd>R</kbd>
-            </div>
-            <div data-key="84" class="key" onclick="clickSound(84)">
-                <kbd>T</kbd>
-            </div>
-            <div data-key="89" class="key" onclick="clickSound(89)">
-                <kbd>Y</kbd>
-            </div>
-            <div data-key="85" class="key" onclick="clickSound(85)">
-                <kbd>U</kbd>
-            </div>
-            <div data-key="73" class="key" onclick="clickSound(73)">
-                <kbd>I</kbd>
-            </div>
-            <div data-key="79" class="key" onclick="clickSound(79)">
-                <kbd>O</kbd>
-            </div>
-        </div>
-        <audio data-key="81" src="piano/Q.wav"></audio>
-        <audio data-key="87" src="piano/W.wav"></audio>
-        <audio data-key="69" src="piano/E.wav"></audio>
-        <audio data-key="82" src="piano/R.wav"></audio>
-        <audio data-key="84" src="piano/T.wav"></audio>
-        <audio data-key="89" src="piano/Y.wav"></audio>
-        <audio data-key="85" src="piano/U.wav"></audio>
-        <audio data-key="73" src="piano/I.wav"></audio>
-        <audio data-key="79" src="piano/O.wav"></audio>
-
 
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>

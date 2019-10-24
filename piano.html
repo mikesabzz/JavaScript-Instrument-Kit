@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript Drum Kit</title>
+</head>
+<header>
+        <h2 class="drum"><a href="index.html">Drum</a></h2>   
+    </header>
+<body>
+<div class="keys">
+    <div data-key="65" class="key" onclick="clickSound(65)">
+        <kbd>A</kbd>
+    </div>
+    <div data-key="83" class="key" onclick="clickSound(83)">
+        <kbd>S</kbd>
+    </div>
+    <div data-key="68" class="key" onclick="clickSound(68)">
+        <kbd>D</kbd>
+    </div>
+    <div data-key="70" class="key" onclick="clickSound(70)">
+        <kbd>F</kbd>
+    </div>
+    <div data-key="71" class="key" onclick="clickSound(71)">
+        <kbd>G</kbd>
+    </div>
+    <div data-key="72" class="key" onclick="clickSound(72)">
+        <kbd>H</kbd>
+    </div>
+    <div data-key="74" class="key" onclick="clickSound(74)">
+        <kbd>J</kbd>
+    </div>
+    <div data-key="75" class="key" onclick="clickSound(75)">
+        <kbd>K</kbd>
+    </div>
+    <div data-key="76" class="key" onclick="clickSound(76)">
+        <kbd>L</kbd>
+    </div>
+</div>
+<audio data-key="65" src="piano/Q.wav"></audio>
+<audio data-key="83" src="piano/W.wav"></audio>
+<audio data-key="68" src="piano/E.wav"></audio>
+<audio data-key="70" src="piano/R.wav"></audio>
+<audio data-key="71" src="piano/T.wav"></audio>
+<audio data-key="72" src="piano/Y.wav"></audio>
+<audio data-key="74" src="piano/U.wav"></audio>
+<audio data-key="75" src="piano/I.wav"></audio>
+<audio data-key="76" src="piano/O.wav"></audio>
+
+
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+</body>
+</html>
